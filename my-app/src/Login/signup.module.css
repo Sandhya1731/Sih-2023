@@ -1,0 +1,138 @@
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 48%;
+    top: 10%;
+    margin: 2%;
+}
+
+.container h3 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+
+}
+
+.container .signIn {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(25, 170, 57, 1);
+}
+
+.container .already {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(135, 132, 132, 1);
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.container form label {
+    margin: 10px;
+}
+
+.container form label h2 {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.container form label input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 14px;
+    font-size: 14px;
+    /* background: linear-gradient(0deg, #D2CECE, #D2CECE); */
+    border: 0.47px solid rgba(210, 206, 206, 1);
+}
+
+.submitButton {
+    width: 300.42px;
+    
+    margin-top: 10px;
+    padding: 10px;
+    color:#ffff;
+    /* padding: 7.02px 9.82px 7.02px 14.03px; */
+    border-radius: 11.69px;
+    background: linear-gradient(90deg, #19AA39 0%, rgba(190, 220, 124, 0.99) 98.66%);
+}
+
+.container form label input ::placeholder {
+    width: 52px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    border: none;
+    border-top: 0.47px solid #000;
+    margin: 0;
+    flex-grow: 1;
+    width: 103.5px;
+}
+
+.or {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.google {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:6.5px;
+}
+
+.gLogo {
+    width: 20.63px;
+    padding: 4px;
+     box-shadow: 0px 1.870686411857605px 3.2737014293670654px 0px rgba(0, 0, 0, 0.1);;
+    border-radius: 6.05px;
+}
+.errormsg {
+    color: red;
+    text-align: left;
+    font-size: 10px;
+}

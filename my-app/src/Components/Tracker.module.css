@@ -1,0 +1,95 @@
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    height: 50%;
+}
+
+.headContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 971.1px;
+    margin: 4px;
+}
+
+.headContainer .time {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headContainer button {
+    border: 1px solid black;
+    background: white;
+    border-radius: 12px;
+}
+
+.headContainer h3 {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin: 0;
+}
+
+.headContainer h2 {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+}
+
+.headContainer .timer {
+    font-family: Poppins;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 9px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.updateInfo {
+    grid-column: 5;
+}
+
+.horizontalLine {
+    border: 0.3px solid rgba(10, 3, 3, 0.5);
+    width: 95%;
+    margin: 0px auto;
+}
+
+.station {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 971.1px;
+}
+
+.station h2 {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin: 0;
+}
+
+
+.A {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+}
