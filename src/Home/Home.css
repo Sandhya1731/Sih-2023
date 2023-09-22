@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.background-img{
+    width:100%;
+    overflow-y:hidden ;
+    height:100%;
+    opacity: 0.85;
+    /* filter: blur(0.5px); */
+}
+.style-text{
+    position: absolute;
+    width: 820px;
+    height: 190px;
+    top:400px;
+    right:0;
+    margin-right:25px;
+    font-family: Poppins;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 96px;
+        letter-spacing: 0em;
+        text-align: center;
+        float:right;
+        color: #ffff;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}

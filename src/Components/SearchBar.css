@@ -1,0 +1,86 @@
+.footbar {
+    position: absolute;
+    width: 70vw;
+    height: 80px;
+    top: 620px;
+    left: 50%;
+        transform: translate(-50%, 0);
+    border-radius: 280px;
+    background-color: #FFFFFF;
+}
+
+.menuBar {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footlinks {
+    margin:2px;
+    width: 30%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    color:#19AA39CC;
+}
+
+.loc {
+    position: relative;
+    width: 80px;
+    height: 24px;
+    font-family: Open-Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.menu {
+    position: relative;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 105.26px;
+
+}
+
+.search {
+    width: 319px;
+    height: 80px;
+    border-radius: 280px;
+    background: #19AA39CC;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    color:#FFFFFF;
+}
+
+.searchText {
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:#FFFFFF;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+

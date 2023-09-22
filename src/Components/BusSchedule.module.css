@@ -1,0 +1,171 @@
+.container{
+    position: absolute;
+        top: 80px;
+        overflow-y: auto;
+        border: none;
+        scroll-behavior: smooth;
+        width: 100%;
+            height: 570px;
+}
+/* For webkit-based browsers (Chrome, Safari) */
+/* These styles will hide both vertical and horizontal scrollbars */
+/* You can customize the width and height values as needed */
+
+/* Hide the scrollbar */
+.container::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+}
+
+/* Hide the scrollbar track */
+.container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Hide the scrollbar thumb */
+.container::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+/* For Firefox */
+/* This style will hide both vertical and horizontal scrollbars */
+/* You can customize the width as needed */
+.container {
+    scrollbar-width: thin;
+}
+
+/* Hide the scrollbar thumb in Firefox */
+.container::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 971.1px;
+    height: 180.37px;
+    transition: 0.2s linear;
+}
+
+.Card .box .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    grid-column: 1 / span 2;
+    gap:5px;
+}
+
+.Card .box .busIcon {
+    width: 37.82px;
+    height: 32.26px;
+    margin-right: 5px;
+}
+
+.Card .box h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Card .box .loc {
+    grid-column: 3 / span 2;
+    color: #1E1B1B;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    width: fit-content;
+
+}
+
+.Card .box .loc h3 {
+    font-family: Poppins;
+    font-size: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Card .box .third {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    /* margin: 20px; */
+    gap:50px;
+}
+
+.Card .box .third .icons {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card .box .third .rating {
+    width: 77.87px;
+    /* height: 26.7px;  */
+    background: #19AA39;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.Card .box .third .people {
+    width: 77.87px;
+    background: rgba(232, 232, 232, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.box .btn:hover {
+    letter-spacing: 1px;
+}
+
+.box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* transform: scale(1.02); */
+    cursor: pointer;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: #24EC50;
+    color: #ffff;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(180deg, #1b5346, #113c32);
+}

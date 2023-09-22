@@ -1,0 +1,20 @@
+.container{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top:100px;
+    box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+.head{
+    color: #ffff;
+    font-size: 24px;
+    margin:20px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(25, 170, 57, 1);
+    width:300px;
+    text-align: center;
+}
